@@ -1,4 +1,4 @@
-
+/*products page*/
 .products_container {
   display: flex;
   justify-content: center;
@@ -60,6 +60,13 @@
 .fa-star {
     color: rgb(243, 181, 25);
 }
+
+.cart_image{
+  height: 40px;
+  width: 40px;
+}
+
+/*footer of the website*/
 footer{
   display: flex;
   flex-wrap: wrap;
