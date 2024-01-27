@@ -13,18 +13,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-#hero button {
-  background-image: url("../img/button.png");
-  background-color: transparent;
-  color: #0b0d0d;
-  border: 0;
-  padding: 14px 80px 14px 65px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 15px;
-}
-/* Style the section container */
+
 .sec {
   max-width: 1200px;
   margin: 0 auto;
@@ -53,31 +42,6 @@
   border-top-right-radius: 8px;
 }
 
-/* Style the product description */
-.des {
-  padding: 10px;
-}
-
-.des span {
-  color: #007bff;
-  font-weight: bold;
-}
-
-.des h5 {
-  margin: 5px 0;
-}
-
-/* Style the star rating */
-.star {
-  color: #ffd700;
-  margin: 5px 0;
-}
-
-/* Style the price */
-h4 {
-  color: #28a745;
-  margin: 10px 0;
-}
 
 /* Style the shopping cart icon */
 .cart {
@@ -129,6 +93,9 @@ h4 {
 #product1 .pro .des span {
   color: #606063;
 }
+.pro-container{
+  display: inline-block;
+}
 #product1 .pro .des h5 {
   padding-top: 7px;
   color: #1a1a1a;
@@ -142,7 +109,7 @@ h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700px;
-  color: #088178;
+  color: #0d0f0f;
 }
 #product1 .pro .cart {
   width: 40px;
@@ -156,39 +123,4 @@ h4 {
   bottom: 20px;
   right: 10px;
 }
-/*footer*/
-footer .logo {
-  margin-bottom: 30px;
-}
-footer h4 {
-  font-size: 14px;
-  padding-bottom: 30px;
-  color: #d1f0d6;
-}
-footer p {
-  font-size: 15px;
-  margin: 0 0 8px 0;
-  color: #ffffff;
-}
-footer a {
-  font-size: 20px;
-  text-decoration: none;
-  color: rgb(253, 251, 251);
-  margin-bottom: 10px;
-}
-footer .follow {
-  margin-top: 20px;
-}
-footer .follow i {
-  color: #f6faf8;
-  padding-right: 4px;
-  cursor: pointer;
-}
-footer .follow i:hover,
-footer a:hover {
-  color: #10160e;
-}
-footer .copyright {
-  width: 2000px;
-  text-align: center;
-}
+
