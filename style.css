@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #1465d7;
+  background: #4745c7;
   box-shadow: 0 5px 15px rgba(182, 41, 41, 0.06);
   z-index: 999;
   position: sticky;
@@ -49,7 +49,7 @@
 }
 
 
-/*products page of the website*/
+/*product page of the website*/
 .products_container {
   display: flex;
   justify-content: center;
@@ -82,7 +82,19 @@
   max-height: 200px;
   min-height: 200px;
 
+
 }
+.rating {
+  display: inline-block; /* Ensures that the stars appear in a horizontal line */
+}
+
+/* Style for the individual star images */
+.rating img {
+  width: 20px; /* Set the width of each star */
+  height: 20px; /* Set the height of each star */
+  margin-right: 5px; /* Add some spacing between the stars */
+}
+
 
 .products .product .add_to_cart {
   position: absolute;
@@ -91,7 +103,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   color: black;
-  background-color: #72856e;
+  background-color: #80ca71;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -99,9 +111,23 @@
   justify-content: center;
   align-items: center;
 }
+.products .product .add_to_cart:hover {
+  transform: scale(1.2);
+}
+
+.products .product .add_to_cart img {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
 
 .product .name {
     color: #999;
+}
+
+.product .actual_price {
+  text-decoration: line-through;
 }
 
 .product .desc {
@@ -110,6 +136,11 @@
 
 .fa-star {
     color: rgb(243, 181, 25);
+}
+
+.cart_image{
+  height: 40px;
+  width: 40px;
 }
 
 /*footer of the website*/
