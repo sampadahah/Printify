@@ -40,7 +40,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   color: black;
-  background-color: #72856e;
+  background-color: #80ca71;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -49,6 +49,11 @@
   align-items: center;
 }
 
+.products .product .add_to_cart img {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
 .product .name {
     color: #999;
 }
